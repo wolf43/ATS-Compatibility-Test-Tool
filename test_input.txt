@@ -1,0 +1,8 @@
+apple.com
+twitter.com
+google.com
+amazon.com
+facebook.com
+nba.com
+nfl.com
+nbc.com
