@@ -41,9 +41,9 @@ This tool is a python wrapper around these 2 methods and adds some file I/O to d
 ### How to run this tool  
 Download all the files  
 Open terminal and run  
-python ats_check.py -i input_file_with_inputs  
+`python ats_check.py -i input_file_with_inputs`  
 to test multiple inputs present in newline sperated input file or  
-python ats_check.py -u url_to_test  
+`python ats_check.py -u url_to_test`  
 to test a single url  
 The tool will check if it is running on El Capitan or better and use nscurl if it is available(as it is faster than running SSL labs scan) or run SSL labs scan and return the result if it is not available  
 After execution, you will see a list of inputs that failed the test printed on the terminal and a new json results file with all the results for future referece  
